@@ -1,0 +1,10 @@
+.elements__container {
+  max-width: 246px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  background-color: white;
+  padding: 25px 21px 25px;
+  text-align: start;
+}

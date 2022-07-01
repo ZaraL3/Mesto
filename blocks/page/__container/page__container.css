@@ -1,0 +1,17 @@
+.page__container {
+  max-width: 1280px;
+  margin: 0 auto;
+ 
+}
+
+@media screen and (max-width: 600px) {
+  .page__container {
+    align-items: stretch;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page__container {
+    flex-direction: column;
+  }
+}

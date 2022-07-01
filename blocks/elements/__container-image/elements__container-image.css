@@ -1,0 +1,7 @@
+.elements__container-image{
+    max-width: 282px;
+    max-height: 282px;
+    justify-content: space-between;
+    display: flex;
+
+}
