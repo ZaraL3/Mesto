@@ -1,8 +1,13 @@
 .card {
-    display: flex;
-    position: relative;
-    flex-direction: column;
+    width: 282px;
     border-radius: 10px;
+    border: none;
+    padding: 0;
+    margin: 0;
     overflow: hidden;
-    background-color: white;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }

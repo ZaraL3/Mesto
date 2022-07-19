@@ -1,11 +1,13 @@
 .card__name {
-    margin: 0;
-    padding: 0;
-    color: black;
-    text-overflow: ellipsis;
-    font-size: 24px;
-    line-height: 29px;
-    white-space: nowrap;
-    overflow: hidden;
-    max-width: 230px;
+    font-weight: 900;
+	font-style: normal;
+	font-size: 24px;
+	line-height: calc(29/24);
+	margin: 0;
+	z-index: 2;
+	padding: 0;
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }

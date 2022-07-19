@@ -1,7 +1,10 @@
 .card__info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 22px;
-    padding: 0;
+    max-width: 246px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  background-color: white;
+  padding: 25px 21px 25px;
+  text-align: start;
 }

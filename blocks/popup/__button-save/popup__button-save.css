@@ -1,29 +1,25 @@
 .popup__button-save {
-    background-color: #000000;
-    color: #ffffff;
     width: 100%;
-    padding: 14px 0 18px;
-    border-radius: 2px;
+    min-height: calc((100vw - 320px) / (1280 - 320) * (50 - 46) + 46px);
+    margin-top: 50px;
     border: none;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.2;
-    margin-top: 48px;
-    transition: background-color .3s;
-}
-
-.popup__button-save:hover {
-    opacity: .8;
+    border-radius: 2px;
+    background-color: #000;
+    color: #fff;
+    font-size: calc((100vw - 320px) / (1280 - 320) * (18 - 14) + 14px);
+    line-height: calc((100vw - 320px) / (1280 - 320) * (22 - 17) + 17px);
+    transition: opacity 0.2s linear;
+  }
+  
+  .popup__button-save:hover {
+    opacity: 0.8;
     cursor: pointer;
-}
-
-@media screen and (max-width: 600px) {
+  }
+  
+  @media screen and (min-width: 1280px) {
     .popup__button-save {
-        padding: 13px;
-        margin-top: 45px;
-        font-size: 14px;
-        line-height: 1.1;
-        width: 238px;
-        height: 46px;
+      min-height: 50px;
+      font-size: 18px;
+      line-height: 22px;
     }
-}
+  }
